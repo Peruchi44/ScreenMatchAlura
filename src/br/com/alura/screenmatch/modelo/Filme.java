@@ -12,6 +12,18 @@ public class Filme {
         return totalDeAvaliacoes;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setAnoLancamento(int anoLancamento) {
+        this.anoLancamento = anoLancamento;
+    }
+
+    public void setDuracaoMinutos(int duracaoMinutos) {
+        this.duracaoMinutos = duracaoMinutos;
+    }
+
     public void exibiFichaTecnica(){
         System.out.println("Nome do filme: " + nome);
         System.out.println("Ano de lançamento: " + anoLancamento);
