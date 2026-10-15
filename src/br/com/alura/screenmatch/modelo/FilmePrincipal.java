@@ -16,6 +16,8 @@ public class FilmePrincipal {
         System.out.println(meuFilme.returnMedia());
 //        meuFilme.somaAvaliacoes = 10;
 //        meuFilme.somaAvaliacoes = 1;
-//
+
+        Serie serie1 = new Serie();
+        
     }
 }
